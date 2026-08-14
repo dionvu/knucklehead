@@ -6,20 +6,16 @@ manifest:
       url-base: https://github.com/urob
     - name: caksoylar
       url-base: https://github.com/caksoylar
-
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-      revision: main
-
+      revision: v0.3.0
     - name: zmk-auto-layer
       remote: urob
       revision: main
-
     - name: zmk-tri-state
       remote: urob
       revision: main
-
   self:
     path: config
